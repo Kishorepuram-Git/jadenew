@@ -1,0 +1,98 @@
+ // GLOBAL VARIABLES
+
+
+ // Raley's Hedding Text
+ @font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('fonts/WorkSans-Regular.woff');
+   /*  src: url("./assets/fonts/Aleo-Bold.woff"); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// Raley's Body Text
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('fonts/WorkSans-Bold.woff');
+   /*  src: url('./assets/fonts/Larsseit-Light.woff'); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+// Raley Font family
+$headding:'WorkSans-Regular', Arial, Helvetica, sans-serif;
+$bodytext:'WorkSans-Regular', Arial, Helvetica, sans-serif;
+$bodytext-bold:'WorkSans-Bold', Arial, Helvetica, sans-serif;
+
+
+
+$white : #ffffff;
+
+// scss-docs-start theme-color-variables
+$primary: #EE303E;
+$secondary:     #4B5358;
+$secondary75:     #787E82;
+$secondary50:     #4B5358;
+$secondary25:     #D2D4D5;
+
+
+$RALEYRed: #EE303E;
+$RALEYRed1: #FF6656;
+$RALEYRed2: #FF4649;
+$RALEYRed3: #D72D38;
+$RALEYRed4: #B43B3C;
+$RALEYRed4: #854337;
+
+$RALEYNatural:  #C9947E;
+$RALEYNatural1: #F0E5DF;
+$RALEYNatural2: #D8BFAC;
+$RALEYNatural3: #817163;
+$RALEYNatural4: #4B5358;
+
+
+
+
+
+
+
+
+
+
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    font-family: $headding;
+    color: $primary;
+    font-weight: bold;
+}
+
+.bodytext16{
+    //styleName: Raleys Body 16;
+font-family: $bodytext;
+font-size: 16px;
+font-style: normal;
+
+}
+.bodytext14{
+    //styleName: Raleys Body 16;
+font-family: $bodytext;
+font-size: 14px;
+font-style: normal;
+
+}
+.bodytext12{
+    //styleName: Raleys Body 16;
+font-family: $bodytext;
+font-size: 12px;
+font-style: normal;
+
+}
+
+
+

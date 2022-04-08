@@ -1,0 +1,65 @@
+//buttons
+
+.btn-lg {
+  font-family: $headding;
+  font-size: 16px;
+  line-height: 30px;
+  min-width: 150px;
+  border-radius: 6px;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: $white;
+  &:hover {
+    color: $white;
+    background-color: $primary;
+  }
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  color: $white;
+}
+
+.btn-outline-primary{
+  border-width: 2px;
+  color: $primary;
+  background:$white;
+  &:hover, &:focus{
+    background:$white;
+    color: $primary;
+  }
+}
+
+.btn-primary:disabled, .btn-primary.disabled{
+  color: $white;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: rgb(255, 66, 79) radial-gradient(circle, transparent 1%, rgb(231, 65, 77) 1%) center/15000%;
+}
+.ripple:active {
+  background-color: $primary;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+
+@media (max-width:768px){
+  .btn-lg {
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 120px;
+  }
+}
